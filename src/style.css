@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.main-title {
+  margin: 3% 0 0 3%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6%;
+  padding: 4% 7% 0% 9%;
+  justify-content: center;
+}
+
+.section-one {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-two {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin-top: 4%;
+}
+
+.name {
+  flex: 1;
+  padding: 1%;
+  margin-top: 1%;
+  max-width: 80%;
+  border: 2px solid #000;
+}
+
+.scor {
+  flex: 1;
+  padding: 1%;
+  margin-top: 5%;
+  max-width: 80%;
+  border: 2px solid #000;
+}
+
+.submit {
+  flex: 1;
+  margin-top: 6%;
+  padding: 1%;
+  align-self: flex-end;
+  margin-right: 20%;
+  max-width: 22%;
+}
+
+.refresh {
+  padding: 1%;
+  margin-left: 2%;
+}
+
+.score {
+  margin-top: 4%;
+  max-width: 50%;
+  border: 2px solid #000;
+}
+
+.one {
+  background-color: #ddd;
+}
+
+.score-name {
+  margin: 2% 0 0 0;
+  padding: 1% 0 1% 2%;
+}
