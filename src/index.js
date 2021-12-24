@@ -47,7 +47,9 @@ const newScore = () => {
 };
 
 const getScores = async () => {
-  const ulTag = document.querySelector('.score');
+  const divTag = document.querySelector('.divscore');
+  const ulTag = document.createElement('ul');
+  ulTag.className = 'score';
   const liTag = document.createElement('li');
   const smallTag1 = document.createElement('small');
   const smallTag2 = document.createElement('small');
@@ -58,6 +60,7 @@ const getScores = async () => {
     smallTag2.textContent = item.score;
     liTag.appendChild(smallTag1);
     liTag.appendChild(smallTag2);
+    divTag.appendChild(ulTag);
     ulTag.appendChild(liTag.cloneNode(true));
   });
 };
@@ -66,6 +69,7 @@ const refresh = document.querySelector('#refresh');
 refresh.addEventListener('click', () => {
   window.location.reload();
 });
+
 getScores();
 saveGameOnLocalStorage();
 newScore();
