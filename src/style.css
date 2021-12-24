@@ -78,7 +78,7 @@ li {
 
 .refresh {
   padding: 1%;
-  margin-left: 2%;  
+  margin-left: 2%;
 }
 
 .score {
@@ -90,4 +90,3 @@ li {
 li:nth-of-type(2n) {
   background-color: #ddd;
 }
-
